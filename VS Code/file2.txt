@@ -1,0 +1,5 @@
+It is the second file!
+This is appending.File handling is advanced!
+This is appending. File handling is advanced!
+This is appending. File handling is advanced!
+I have to go to school.

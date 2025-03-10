@@ -1,0 +1,4 @@
+Hi!
+This is a new file.
+Hi! The file changed.
+Hello.

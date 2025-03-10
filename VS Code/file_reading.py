@@ -1,0 +1,15 @@
+
+file2=open("file_beginner.txt","w")
+file2.write("This is a new file.")
+file2.write(" Hi! The file changed.")
+file2.close()
+file1=open("file_beginner.txt","r")
+print(file1.read())
+file1.close()
+
+file3=open("file_beginner.txt","a")
+file3.write(" Hello.")
+file3.close()
+file1=open("file_beginner.txt","r")
+print(file1.read())
+file1.close()

@@ -1,0 +1,13 @@
+tuple1=(1,2,3,4,5,"hi!")
+print(tuple1)
+tuple2=()
+print(tuple2)
+tuple3=((1,2), "hello", [4,5,6])
+print(tuple3)
+print(tuple3[1][0])
+print(tuple3[2][1])
+tuple4=("rainbow")
+print(tuple4[4:7])
+tuple5=("m","i","s","h","a")
+for letters in (tuple5):
+    print(letters)

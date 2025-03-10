@@ -1,0 +1,17 @@
+#file1=open("file2.txt","r")
+#print(file1.read(10))
+#file1.close()
+#file1=open("file2.txt","a")
+#file1.write(" This is appending.")
+#file1.write(" File handling is advanced!")
+#file1.close()
+file1=open("file2.txt","r")
+print(file1.read())
+file2=open("file3.txt","w")
+for line in file1.readlines():
+    print(line)
+    if not (line.startswith("This")):
+        print(line)
+        file2.write(line)
+file1.close()
+file2.close()
